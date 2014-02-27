@@ -16,4 +16,4 @@
 
 <body>
 
-	<div style="padding: 10px; background-color: #444; color:white; height:40px; line-height: 250%; text-align: center;">Header Special</div>
+	<div class="header-diferente">Esta página tiene un Header Diferente!</div>

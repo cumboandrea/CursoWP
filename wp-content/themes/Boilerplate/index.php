@@ -35,6 +35,3 @@
 </div>
 
 <?php get_footer(); ?>
-
-
-header-plantillapage.php 
