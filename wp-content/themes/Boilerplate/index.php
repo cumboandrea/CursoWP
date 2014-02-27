@@ -9,14 +9,14 @@
 		<ul>
 	    <li><a href="<?php bloginfo( 'url' ); ?>?page_id=10">¿Quien somos?</a></li>
 	    <li><a href="<?php bloginfo( 'url' ); ?>?page_id=8">Contacts</a></li>
-	    <li><a href="<?php bloginfo( 'url' ); ?>?page_id=16">Plantilla con sidebar</a></li>
+	    <li><a href="<?php bloginfo( 'url' ); ?>?page_id=16">Funciones</a></li>
 	  </ul>
-	</div>
+	</div> <!-- / .element -->
 
 	<div class="element">
 		<p>Una Entrada:</p>
 		<a href="<?php bloginfo( 'url' ); ?>?p=6">Primera Entradas (<?php the_title(); ?>)</a>
-	</div>
+	</div> <!-- / .element -->
 
 	<div class="element">
 		<p>Todas las Entradas:</p>
@@ -30,8 +30,8 @@
 			echo wpautop( 'Sorry, no posts were found' );
 		endif;
 		?>
-	</div>
+	</div> <!-- / .element -->
 
-</div>
+</div> <!-- / #wrapper -->
 
 <?php get_footer(); ?>
